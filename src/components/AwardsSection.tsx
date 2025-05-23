@@ -20,7 +20,7 @@ const awards: AwardItem[] = [
     date: "September 2023",
     type: "award",
     description: "Awarded for Outstanding Contribution.",
-    imageUrl: "src/components/images/tech_excel.jpg"
+    imageUrl: "/portfolio/tech_excel.jpg"
   },
   {
     id: 2,
@@ -29,7 +29,7 @@ const awards: AwardItem[] = [
     date: "September 2023",
     type: "award",
     description: "Service Commitment for 3 years of contribution.",
-    imageUrl: "src/components/images/commit-awd.jpg"
+    imageUrl: "/portfolio/commit-awd.jpg"
   },
   {
     id: 3,
@@ -38,7 +38,7 @@ const awards: AwardItem[] = [
     date: "July 2022",
     type: "award",
     description: "Delivered production releases with exceptional precision.",
-    imageUrl: "src/components/images/star_mnt_awd.jpg"
+    imageUrl: "/portfolio/star_mnt_awd.jpg"
   },
   {
     id: 4,
@@ -47,7 +47,7 @@ const awards: AwardItem[] = [
     date: "June 2022",
     type: "award",
     description: "Mentoring juniors on new functionalities",
-    imageUrl: "src/components/images/warr_awd.jpg"
+    imageUrl: "/portfolio/warr_awd.jpg"
   },
   {
     id: 5,
@@ -56,7 +56,7 @@ const awards: AwardItem[] = [
     date: "March 2021",
     type: "award",
     description: "Exceptional team work.",
-    imageUrl: "src/components/images/best_team.jpg"
+    imageUrl: "/portfolio/best_team.jpg"
   },
   {
     id: 6,
@@ -64,7 +64,7 @@ const awards: AwardItem[] = [
     issuer: "Leetcode",
     date: "March 2025",
     type: "certificate",
-    imageUrl: "src/components/images/LeetCode_Badges.jpg"
+    imageUrl: "/portfolio/LeetCode_Badges.jpg"
   },
   {
     id: 7,
@@ -72,7 +72,7 @@ const awards: AwardItem[] = [
     issuer: "Bennett University",
     date: "July 2019",
     type: "certificate",
-    imageUrl: "src/components/images/AI_bennit.jpg"
+    imageUrl: "/portfolio/AI_bennit.jpg"
   },
   {
     id: 8,
@@ -80,7 +80,7 @@ const awards: AwardItem[] = [
     issuer: "IJSREM Journal",
     date: "April 2020",
     type: "certificate",
-    imageUrl: "src/components/images/research_ppr.jpg"
+    imageUrl: "/portfolio/research_ppr.jpg"
   },
   {
     id: 9,
@@ -88,7 +88,7 @@ const awards: AwardItem[] = [
     issuer: "LinkedIn",
     date: "May 2025",
     type: "certificate",
-    imageUrl: "src/components/images/docker.jpg"
+    imageUrl: "/portfolio/docker.jpg"
   },
   {
     id: 10,
@@ -96,7 +96,7 @@ const awards: AwardItem[] = [
     issuer: "Oracle",
     date: "February 2025",
     type: "certificate",
-    imageUrl: "src/components/images/oracle_dbms_cert.jpg"
+    imageUrl: "/portfolio/oracle_dbms_cert.jpg"
   },
   {
     id: 10,
@@ -104,7 +104,7 @@ const awards: AwardItem[] = [
     issuer: "HackerRank",
     date: "May 2025",
     type: "certificate",
-    imageUrl: "src/components/images/js_basics.jpg"
+    imageUrl: "/portfolio/js_basics.jpg"
   }
 ];
 

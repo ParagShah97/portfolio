@@ -8,7 +8,7 @@ const projectsData: Project[] = [
     id: 1,
     title: "Request Tracker AI Extension",
     description: "Built a GenAI extension for Request Tracker (an open-source tool from Best Practical Solutions Inc.), automating ticket workflows with GPT and Llama integration, saving 15+ hours weekly. Added sentiment analysis and summarization to speed up priority handling by 50%, and enabled multilingual support for users across 18+ countries.",
-    image: "src/components/best_practical.png",
+    image: "/portfolio/best_practical.png",
     tags: ["GenAI", "LLMs", "GPT", "Perl", "TypeScript"],
     githubUrl: "https://github.com/ParagShah97/rt-extension-ai",
     liveUrl: "https://www.youtube.com/watch?v=LIk5XkCJLHo&t=6s",
@@ -18,7 +18,7 @@ const projectsData: Project[] = [
     id: 2,
     title: "Lighthouse Free Medical Clinic NGO",
     description: "Partnered with Lighthouse Free Medical Clinic to build an AI-powered platform that recommends healthcare plans for underrepresented communities. Leveraged NLP to match users with 100+ government-aided insurance programs, benefiting 1,000+ immigrants. Developed a full-stack e-commerce-style interface focused on accessibility, including voice-assisted navigation and an AI chatbot trained on 10K+ medical queries to guide users through their options.",
-    image: "src/components/lighthouse.png",
+    image: "/portfolio/lighthouse.png",
     tags: ["Healthcare", "LLaMa", "React", "FastAPI", "LLMs"],
     githubUrl: "",
     liveUrl: "https://www.youtube.com/watch?v=Zk2ihwav3q8&t=7s"
@@ -27,7 +27,7 @@ const projectsData: Project[] = [
     id: 3,
     title: "E-commerce Scalable Microservices Architecture",
     description: "Built a robust microservices platform using Spring Boot, featuring Eureka for service discovery, centralized config management, and secure OAuth2 integration with Okta. Deployed containerized services via Docker and Kubernetes, with CI/CD automation through Jenkins and SonarQube. Enabled resilient, scalable operations with API Gateway, Redis caching, and circuit breaking.",
-    image: "src/components/ecommerce.png",
+    image: "/portfolio/ecommerce.png",
     tags: ["Java", "Spring Boot", "MySQL", "AWS", "Docker", "Redis", "Kubernates", "SonarQube"],
     githubUrl: "https://github.com/ParagShah97/InventraX",
     liveUrl: ""
@@ -36,7 +36,7 @@ const projectsData: Project[] = [
     id: 4,
     title: "Advertisement Recommendation Engine",
     description: "Built an end-to-end AI ad recommendation platform using custom-implemented DenseNet, VGG-16, ResNet-50, and AlexNet models trained on 100K+ images. Designed a social media-style UI with real-time image analysis (0.1s response time) and asynchronous REST APIs. Boosted model accuracy by 30% through advanced tuning and optimization techniques.",
-    image: "src/components/add_recomm.png",
+    image: "/portfolio/add_recomm.png",
     tags: ["Streamlit", "Python", "PyTorch", "Deep Learning", "CNN", "PostgreSQL"],
     githubUrl: "https://github.com/ParagShah97/pixAds-AI",
     liveUrl: ""
@@ -45,9 +45,18 @@ const projectsData: Project[] = [
     id: 5,
     title: "Custom High-Performance ORM Framework",
     description: "Developed a Java-based ORM framework inspired by Hibernate, enabling annotation-driven mapping and dynamic SQL generation via reflection. Designed to replace raw JDBC, it helps Java developers reduce boilerplate code and save significant development time. Supported 10+ annotation types, nested queries, and schema-level validations, boosting efficiency and cutting runtime errors by 40%. Optimized transaction handling, connection pooling, and exception management for high-performance CRUD operations.",
-    image: "src/components/orm.png",
+    image: "/portfolio/orm.png",
     tags: ["Low-Level Design", "Java Reflection", "Exception Handling", "SQL", "XML"],
     githubUrl: "https://github.com/ParagShah97/ORMFramework",
+    liveUrl: ""
+  },
+  {
+    id: 6,
+    title: "Find More Projects",
+    description: "Passionate about building projects that simplify life for end users and fellow developers. Check out my other work!",
+    image: "/portfolio/other_proj.png",
+    tags: ["Software Engineer"],
+    githubUrl: "https://github.com/ParagShah97",
     liveUrl: ""
   }
 ];

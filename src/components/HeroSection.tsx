@@ -36,7 +36,7 @@ const HeroSection = () => {
               </a>
             </Button>
             <Button variant="outline" className="border-primary text-primary hover:bg-primary/10">
-              <a href="/src/components/Parag_Shah_Resume.pdf" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+              <a href="/portfolio/Parag_Shah_Resume.pdf" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                 <FileText size={18} />
                 Resume
               </a>
@@ -70,7 +70,7 @@ const HeroSection = () => {
               <div className="text-center">
                 <div className="w-48 h-48 md:w-64 md:h-64 mx-auto rounded-full overflow-hidden border-4 border-white dark:border-navy-700 shadow-lg mb-4">
                   <img 
-                    src="src/components/myImg.jpg"
+                    src="/portfolio/myImg.jpg"
                     alt="Profile"
                     className="w-full h-full object-cover"
                   />
