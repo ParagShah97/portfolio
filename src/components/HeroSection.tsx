@@ -18,10 +18,10 @@ const HeroSection = () => {
           </div>
           
           <p className="text-lg text-navy-600 dark:text-gray-400 max-w-lg">
-            A passionate Software Engineer with 3+ years of experience delivering scalable, AI-powered solutions across fintech, healthcare, and customer support domains. Pursued my Master's in Computer Science at the University at Buffalo, I specialize in full-stack development, cloud-native systems, and applied AI. 
+            A passionate Software Engineer with 3+ years of experience delivering scalable, AI-powered solutions across fintech, healthcare, and customer support domains. Pursued my Master's in Computer Science and Engineering in AI at the University at Buffalo.
             <br/>
             <br/>
-            I've built fintech platforms from the ground up, deployed 15+ production releases, and recently developed an AI-driven healthcare solution for underserved communities. At Best Practical Solutions, I integrated GPT-based models into support workflows, and as Head TA, I led automation efforts that improved academic operations for 500+ students. I thrive on solving real-world problems through clean, impactful engineering.
+            I’ve led end-to-end development of fintech platforms, delivering 15+ production releases that improved client workflows and risk analysis. At Best Practical Solutions, I integrated GPT-based models into customer support systems, accelerating ticket triage and response time. In parallel, I developed an AI-powered healthcare solution to help underserved communities access insurance and resources. As Head TA, I spearheaded automation initiatives that streamlined academic operations for over 500 students. I'm driven by solving real-world problems through clean, efficient, and impactful engineering.
           </p>
 
           <div className="flex items-center text-navy-600 dark:text-gray-400">
