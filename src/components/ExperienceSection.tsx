@@ -16,7 +16,9 @@ const experiences: ExperienceItem[] = [
     title: "AI Engineer Intern",
     company: "Best Practical Solutions",
     period: "Aug 2024 - Dec 2024",
-    description: ["Built a GenAI extension for Request Tracker, integrating GPT and Llama models with configurable workflows, saving 15+ hours weekly in ticket resolution.", "Enhanced global support by enabling multilingual autocomplete and sentiment-aware responses, accelerating priority issue resolution by 50%."]
+    description: ["Reduced weekly ticket resolution time by 10+ hours by designing a GenAI extension for the Request Tracker system, leveraging LLMs (ChatGPT, LLaMA) for AI-powered autosuggestions",
+       "Improved identification of priority issues by 50% through sentiment analysis and automated ticket summarization.",
+      "Enabled language support across 18+ countries by integrating multilingual autocomplete and AI-driven response generation."]
   },
   {
     id: 2,
