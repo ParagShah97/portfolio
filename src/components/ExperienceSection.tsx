@@ -13,7 +13,7 @@ interface ExperienceItem {
 const experiences: ExperienceItem[] = [
   {
     id: 1,
-    title: "Software Engineer Intern",
+    title: "AI Engineer Intern",
     company: "Best Practical Solutions",
     period: "Aug 2024 - Dec 2024",
     description: ["Built a GenAI extension for Request Tracker, integrating GPT and Llama models with configurable workflows, saving 15+ hours weekly in ticket resolution.", "Enhanced global support by enabling multilingual autocomplete and sentiment-aware responses, accelerating priority issue resolution by 50%."]
@@ -23,11 +23,11 @@ const experiences: ExperienceItem[] = [
     title: "Software Engineer II",
     company: "Tata Consultancy Services | @ Moody's Analytics",
     period: "Mar 2022 - Dec 2023",
-    description: ["Led Credit Monitoring and AI-driven Financial Spreading projects at Moody’s Analytics, impacting 400K+ customers across 5+ banks.",
-      "Built a full-stack portfolio management platform with 10 production releases, integrating scalable services for credit analysis.",
-      "Engineered an NLP-powered financial spreading tool with 95% accuracy, streamlining risk evaluation and loan processing.",
-      "Designed models for 10M+ financial trend records and integrated Sisense dashboards, boosting business insights by 45%.",
-      "Improved engineering quality with 80% test coverage, Docker-based DevOps, and CI/CD automation across 4 environments."
+    description: ["Led fintech projects at Moody’s Analytics, benefiting 400,000+ customers across 5 banks by developing a Credit Risk and Investment Monitoring system using Java Spring Boot, PostgreSQL, AWS (backend), and Next.js, React, Material UI (frontend).",
+      "Collaborated with cross-functional teams to build a machine learning NLP model with 95% accuracy for analyzing financial records.",
+      "Boosted KPI visibility and business insights 2x by designing data models from a Redshift data warehouse and integrating Sisense dashboards for over 10M financial trend records",
+      "Accelerated testing and deployment process by 3x through test-driven development, achieving 80% unit-testing coverage with Junit & Mockito, comprehensive automation testing, peer reviews, and feature documentation.",
+      "Delivered 10+ production releases and managed DevOps workflows across Dev, CI, UAT, and Prod environments using Docker and GitHub Actions, with performance monitoring via Datadog"
     ]
   },
   {
@@ -35,9 +35,9 @@ const experiences: ExperienceItem[] = [
     title: "Software Engineer",
     company: "Tata Consultancy Services | @ TTB Bank",
     period: "Sep 2020 - Feb 2022 ",
-    description: ["Partnered with product and QA teams at TTB Bank to launch a customer-centric banking app with E-KYC, payment, and investment workflows, enhanced user experience 5x with faster load time, and increased customer acquisitions by 30%",
-      "Improved component reusability by 2x through developing 20+ core UI/UX components, reducing developer effort by 50%. ",
-      "Revamped the backend by migrating a legacy application to a modern architecture with embedded GraphQL and RESTful APIs, reduced response time by 55%, and improved SEO by 35% through server-side rendering. "
+    description: ["Boosted customer acquisition by 30% at TTB Bank by launching a full-featured banking web app with E-KYC, payments, and investment modules, in collaboration with product and QA teams.",
+      "Reduced developer effort by 50% and 2x component reusability by developing 20+ scalable UI/UX components using React.js",
+      "Enhanced SEO by 35% and reduced API response time by 1.5x by upgrading backend architecture to micro-services with Java Spring, implementing GraphQL and RESTful APIs, and enabling server-side rendering with Next.js"
     ]
   }
 ];

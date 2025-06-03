@@ -55,7 +55,7 @@ const projectsData: Project[] = [
     title: "Find More Projects",
     description: "Passionate about building projects that simplify life for end users and fellow developers. Check out my other work!",
     image: "/portfolio/other_proj.png",
-    tags: ["Software Engineer"],
+    tags: ["Software Engineering Projects"],
     githubUrl: "https://github.com/ParagShah97",
     liveUrl: ""
   }

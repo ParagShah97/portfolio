@@ -64,23 +64,25 @@ const HeroSection = () => {
         </div>
         
         <div className="flex justify-center md:justify-end">
-          <div className="relative">
-            <div className="absolute -inset-0.5 bg-gradient-to-r from-primary to-accent-300 rounded-lg blur opacity-75"></div>
-            <div className="relative bg-white dark:bg-navy-900 rounded-lg overflow-hidden border border-gray-200 dark:border-navy-700 p-6 md:p-8">
-              <div className="text-center">
-                <div className="w-48 h-48 md:w-64 md:h-64 mx-auto rounded-full overflow-hidden border-4 border-white dark:border-navy-700 shadow-lg mb-4">
-                  <img 
-                    src="/portfolio/myImg.jpg"
-                    alt="Profile"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <h3 className="text-xl font-semibold">Software Engineer</h3>
-                <p className="text-navy-600 dark:text-gray-400">Full Stack Development</p>
-              </div>
-            </div>
-          </div>
+  <div className="relative scale-110 md:scale-125 transition-transform duration-300">
+    <div className="absolute -inset-1 bg-gradient-to-r from-primary to-accent-300 rounded-xl blur-lg opacity-80"></div>
+    <div className="relative bg-white dark:bg-navy-900 rounded-xl overflow-hidden border border-gray-300 dark:border-navy-700 p-8 md:p-10 shadow-xl">
+      <div className="text-center">
+        <div className="w-64 h-64 md:w-70 md:h-70 mx-auto rounded-full overflow-hidden border-4 border-white dark:border-navy-700 shadow-xl mb-6">
+          <img 
+            src="/portfolio/myImg.jpg"
+            alt="Profile"
+            className="w-full h-full object-cover"
+          />
         </div>
+        <h5 className="text-xl md:text-xl font-bold text-navy-800 dark:text-white">AI & Software Engineer</h5>
+        {/* <p className="text-lg md:text-xl text-navy-600 dark:text-gray-400">Full Stack Development</p> */}
+      </div>
+    </div>
+  </div>
+</div>
+
+        
       </div>
     </section>
   );

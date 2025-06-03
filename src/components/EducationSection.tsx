@@ -16,6 +16,7 @@ interface EducationItem {
   description: string;
   achievements: string[];
   coursework: string[];
+  publicationLink?: string;
 }
 
 const educationItems: EducationItem[] = [
@@ -47,6 +48,7 @@ const educationItems: EducationItem[] = [
       "Graduated with honors (GPA: 3.5/4.0)",
       "Published a research Paper titled 'Text Preprocessing & Comparative Study of Cosine Similarity & TF-IDF' in the IJSREM Journal"
     ],
+    publicationLink: "https://ijsrem.com/download/text-preprocessing-and-comparative-study-of-cosine-similarity-and-its-integration-with-tf-idf/",
     coursework: [
       "Data Structures & Algorithms",
       "Operating Systems",
@@ -117,6 +119,20 @@ const EducationSection = () => {
                     ))}
                   </ul>
                 </div>
+
+                {/* Publication Button */}
+                {edu.publicationLink && (
+                  <div className="mb-4">
+                    <a
+                      href={edu.publicationLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-primary hover:bg-primary/90 rounded-md transition-colors"
+                    >
+                      📄 View Publication
+                    </a>
+                  </div>
+                )}
                 
                 {/* Coursework */}
                 <div>
