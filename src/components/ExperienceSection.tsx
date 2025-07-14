@@ -23,10 +23,10 @@ const experiences: ExperienceItem[] = [
   {
     id: 2,
     title: "Software Engineer II",
-    company: "Tata Consultancy Services | @ Moody's Analytics",
+    company: "Moody's Analytics | @ TCS",
     period: "Mar 2022 - Dec 2023",
     description: ["Led fintech projects at Moody’s Analytics, benefiting 400,000+ customers across 5 banks by developing a Credit Risk and Investment Monitoring system using Java Spring Boot, PostgreSQL, AWS (backend), and Next.js, React, Material UI (frontend).",
-      "Collaborated with cross-functional teams to build a machine learning NLP model with 95% accuracy for analyzing financial records.",
+      "Partnered with cross-functional teams to develop ML solutions, building an NLP model with 95% accuracy for financial record analysis and deploying XGBoost & LightGBM on live trending data to drive real-time insights.",
       "Boosted KPI visibility and business insights 2x by designing data models from a Redshift data warehouse and integrating Sisense dashboards for over 10M financial trend records",
       "Accelerated testing and deployment process by 3x through test-driven development, achieving 80% unit-testing coverage with Junit & Mockito, comprehensive automation testing, peer reviews, and feature documentation.",
       "Delivered 10+ production releases and managed DevOps workflows across Dev, CI, UAT, and Prod environments using Docker and GitHub Actions, with performance monitoring via Datadog"
@@ -35,11 +35,11 @@ const experiences: ExperienceItem[] = [
   {
     id: 3,
     title: "Software Engineer",
-    company: "Tata Consultancy Services | @ TTB Bank",
+    company: "TMB Thanachart Bank  | @ TCS",
     period: "Sep 2020 - Feb 2022 ",
-    description: ["Boosted customer acquisition by 30% at TTB Bank by launching a full-featured banking web app with E-KYC, payments, and investment modules, in collaboration with product and QA teams.",
+    description: ["•	Boosted customer acquisition by 30% by launching a full-featured banking app with E-KYC, payments, and investment modules, in collaboration with product and QA teams.",
       "Reduced developer effort by 50% and 2x component reusability by developing 20+ scalable UI/UX components using React.js",
-      "Enhanced SEO by 35% and reduced API response time by 1.5x by upgrading backend architecture to micro-services with Java Spring, implementing GraphQL and RESTful APIs, and enabling server-side rendering with Next.js"
+      "•	Enhanced SEO by 35% and cut API latency by 40% by migrating a monolithic system to Java Spring microservices, implementing swagger documented GraphQL and RESTful APIs, and enabling server-side rendering with Next.js."
     ]
   }
 ];

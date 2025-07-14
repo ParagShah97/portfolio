@@ -9,6 +9,8 @@ import {
 const SkillsSection = () => {
   const skills = {
     "Generative AI": [
+      "Python",
+      "NLP",
       "PyTorch",
       "LangChain",
       "LLMs",
@@ -18,19 +20,19 @@ const SkillsSection = () => {
     ],
     "Backend Technologies": [
       "Java",
-      "Node.js",
-      "Spring Boot",
+      "Spring Boot",      
       "Hibernate",
       "Juint",
-      "Express.js",
       "Maven/Grade",
+      "FastAPI",
+      "Node.js",      
       "Okta"
     ],
     "Frontend Technologies": [
-      "JavaScript",
+      "JavaScript (ES6+)",
       "TypeScript",
       "React",
-      "Redux",
+      "Zustand",
       "Material UI",
       "Angular",
       "RxJs",      
@@ -99,7 +101,7 @@ const SkillsSection = () => {
 
         <div className="mt-16 grid md:grid-cols-2 gap-8 max-w-4xl mx-auto text-center">
           <div className="bg-white dark:bg-navy-800/50 p-6 rounded-lg shadow-sm border border-gray-100 dark:border-navy-700">
-            <div className="font-bold text-3xl text-primary mb-4">3.5+</div>
+            <div className="font-bold text-3xl text-primary mb-4">4</div>
             <p className="text-navy-700 dark:text-gray-300">Years Experience</p>
           </div>
           <div className="bg-white dark:bg-navy-800/50 p-6 rounded-lg shadow-sm border border-gray-100 dark:border-navy-700">

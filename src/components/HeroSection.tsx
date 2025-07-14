@@ -18,7 +18,7 @@ const HeroSection = () => {
           </div>
           
           <p className="text-lg text-navy-600 dark:text-gray-400 max-w-lg">
-            A passionate Software Engineer with 3+ years of experience delivering scalable, AI-powered full-stack solutions across fintech, healthcare, and customer support domains. Pursued my Master's in Computer Science and Engineering in AI at the University at Buffalo.
+            A passionate Software Engineer with 4 years of experience delivering scalable, AI-powered full-stack solutions across fintech, healthcare, and customer support domains. Pursued my Master's in Computer Science and Engineering in AI at the University at Buffalo.
             <br/>
             <br/>
             I’ve led end-to-end development of fintech platforms, delivering 15+ production releases that improved client workflows and risk analysis. At Best Practical Solutions, I integrated GPT-based models into customer support systems, accelerating ticket triage and response time. In parallel, I developed an AI-powered healthcare solution to help underserved communities access insurance and resources. As Head TA, I spearheaded automation initiatives that streamlined academic operations for over 500 students. I'm driven by solving real-world problems through clean, efficient, and impactful engineering.
